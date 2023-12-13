@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import "./Home.css";
-import { Button } from "@material-tailwind/react";
 
 export const Home = (): JSX.Element => {
   return (
@@ -103,7 +103,7 @@ export const Home = (): JSX.Element => {
         </section>
       </main>
       <div className="bg-[#000211] mx-5  flex justify-center items-center ">
-      <footer className=" w-full bg-[#000211] text-center py-2 font-bold text-2xl text-[#4c49e9] rounded-[20px] fixed bottom-0">Menu</footer>
+      <Link to="/menu" className=" w-full bg-[#000211] text-center py-2 font-bold text-2xl text-[#4c49e9] rounded-[20px] fixed bottom-0">Menu</Link>
       </div>
     </div>
   );
