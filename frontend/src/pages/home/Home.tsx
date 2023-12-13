@@ -1,7 +1,8 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-export const Home = (): JSX.Element => {
+export const Home = () => {
   return (
     <div className=" min-h-screen bg-[#000211] relative">
       <header>
@@ -39,19 +40,23 @@ export const Home = (): JSX.Element => {
           </article>
           <div className="flex justify-around items-center gap-3 m-5">
             <div className=" bg-[#4c49e9] w-[114px] h-[50px] flex justify-center items-center rounded-[10px]">
+              <a href="https://www.linkedin.com/in/petaccia/" target="_blank">
               <button className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
                 Linkedin
               </button>
+              </a>
             </div>
             <div className=" bg-[#4c49e9] w-[114px] h-[50px] flex justify-center items-center rounded-[10px]">
+              <a href="https://github.com/petaccia" target="_blank">
               <button className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
                 Github
               </button>
+              </a>
             </div>
             <div className=" bg-[#4c49e9] w-[114px] h-[50px] flex justify-center items-center rounded-[10px]">
-              <button className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
+              <Link to="/contact" className=" bg-[#173C61] w-[97px] text-white font-bold py-2 flex justify-center items-center rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
                 Contact me
-              </button>
+              </Link>
             </div>
           </div>
         </section>
