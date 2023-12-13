@@ -43,7 +43,7 @@ export const Home = () => {
                 href="https://www.linkedin.com/in/petaccia/"
                 target="_blank"
                 rel="noreferrer noopenner"
-                className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
+                className=" bg-[#173C61] w-[97px] text-white font-bold py-2 flex justify-center items-center rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
               >
                 Linkedin
               </a>
@@ -53,7 +53,7 @@ export const Home = () => {
                 href="https://github.com/petaccia"
                 target="_blank"
                 rel="noreferrer noopenner"
-                className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
+                className=" bg-[#173C61] w-[97px] text-white font-bold py-2 flex justify-center items-center rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
               >
                 Github
               </a>
