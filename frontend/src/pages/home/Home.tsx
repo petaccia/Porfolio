@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -40,21 +39,30 @@ export const Home = () => {
           </article>
           <div className="flex justify-around items-center gap-3 m-5">
             <div className=" bg-[#4c49e9] w-[114px] h-[50px] flex justify-center items-center rounded-[10px]">
-              <a href="https://www.linkedin.com/in/petaccia/" target="_blank">
-              <button className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
+              <a
+                href="https://www.linkedin.com/in/petaccia/"
+                target="_blank"
+                rel="noreferrer noopenner"
+                className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
+              >
                 Linkedin
-              </button>
               </a>
             </div>
             <div className=" bg-[#4c49e9] w-[114px] h-[50px] flex justify-center items-center rounded-[10px]">
-              <a href="https://github.com/petaccia" target="_blank">
-              <button className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
+              <a
+                href="https://github.com/petaccia"
+                target="_blank"
+                rel="noreferrer noopenner"
+                className=" bg-[#173C61] w-[97px] text-white font-bold py-2  rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
+              >
                 Github
-              </button>
               </a>
             </div>
             <div className=" bg-[#4c49e9] w-[114px] h-[50px] flex justify-center items-center rounded-[10px]">
-              <Link to="/contact" className=" bg-[#173C61] w-[97px] text-white font-bold py-2 flex justify-center items-center rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] ">
+              <Link
+                to="/contact"
+                className=" bg-[#173C61] w-[97px] text-white font-bold py-2 flex justify-center items-center rounded text-xs border-4 border-black shadow-[0_10px_10px_0(0,0,0,0,5)] "
+              >
                 Contact me
               </Link>
             </div>
@@ -75,8 +83,8 @@ export const Home = () => {
                   Card title
                 </h5>
                 <p className="text-white text-base mb-4">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
                 </p>
                 <button className="bg-blue-500 hover:bg-[#2925aa] text-white font-bold py-2 px-4 rounded">
                   Button
@@ -96,8 +104,8 @@ export const Home = () => {
                   Card title
                 </h5>
                 <p className="text-white text-base mb-4">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
                 </p>
                 <button className="bg-blue-500 hover:bg-[#2925aa] text-white font-bold py-2 px-4 rounded">
                   Button
@@ -108,7 +116,12 @@ export const Home = () => {
         </section>
       </main>
       <div className="bg-[#000211] mx-5  flex justify-center items-center ">
-      <Link to="/menu" className=" w-full bg-[#000211] text-center py-2 font-bold text-2xl text-[#4c49e9] rounded-[20px] fixed bottom-0">Menu</Link>
+        <Link
+          to="/menu"
+          className=" w-full bg-[#000211] text-center py-2 font-bold text-2xl text-[#4c49e9] rounded-[20px] fixed bottom-0"
+        >
+          Menu
+        </Link>
       </div>
     </div>
   );
