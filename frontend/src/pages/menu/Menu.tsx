@@ -22,7 +22,7 @@ const Menu = () => {
           Projects
         </Link>
         <Link to="/contact" className="button-menu w-[100px] h-[100px] text-xl text-[#fafafb] bg-[#173C61] font-bold flex justify-center items-center rounded-full border-8 border-[#6699CC]">
-          Home
+          Contact
         </Link>
       </div>
     </div>
